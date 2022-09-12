@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Fonts/Roboto-Regular.ttf') format(ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Fonts/Roboto-Bold.ttf') format(ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Fonts/Roboto-Medium.ttf') format(ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 16px; */
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+.main {
+    padding-top: 50px;
+    height: 100vh;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.txt {
+    margin-top: 20px;
+}
+
+.txt p {
+    line-height: 1.6;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn button {
+    background: #4caf50;
+    border: none;
+    padding: 14px 30px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+}
+
+header,
+.row {
+    display: flex;
+    /* aligns all child elements (flex items) in a row */
+}
+
+header {
+    background-color: #dddddd;
+    font-weight: 600;
+}
+
+.col {
+    flex: 1;
+    /* distributes space on the line equally among items */
+    border: 1px solid #d3cfcf;
+    text-align: center;
+    padding: 8px;
+}
+
+.head-col {
+    border: 1px solid #d3cfcf;
+    text-align: center;
+    flex: 1;
+    padding: 10px;
+}
+
+.price {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.second-row {
+    background-color: #acd6bd6a;
+    font-weight: 600;
+}
+
+.basic-btn button {
+    background: none;
+    border: 3px solid #4caf50;
+    padding: 8px 11px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* font-size: inherit; */
+}
+
+.standard-btn button {
+    background: #4caf50;
+    border: none;
+    padding: 9px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.advanced-btn button {
+    background: none;
+    border: 3px solid #4caf50;
+    padding: 8px 11px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+}

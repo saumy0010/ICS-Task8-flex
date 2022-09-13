@@ -84,7 +84,6 @@ body {
 header,
 .row {
     display: flex;
-    /* aligns all child elements (flex items) in a row */
 }
 
 header {
@@ -94,7 +93,6 @@ header {
 
 .col {
     flex: 1;
-    /* distributes space on the line equally among items */
     border: 1px solid #d3cfcf;
     text-align: center;
     padding: 8px;
@@ -124,7 +122,6 @@ header {
     padding: 8px 11px;
     border-radius: 5px;
     cursor: pointer;
-    /* font-size: inherit; */
 }
 
 .standard-btn button {
